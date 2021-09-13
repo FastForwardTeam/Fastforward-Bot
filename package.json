@@ -1,8 +1,10 @@
 {
-  "name": "Bypass Bot",
+  "name": "BypassBot",
   "version": "1.0.0",
-  "description": "Discord bot for the FastForward discord",
+  "description": "Discord bot for the FastForward discord server",
   "main": "index.js",
   "author": "UnJust1ce",
-  "dependencies": {}
+  "dependencies": {
+    "discord.io": "^2.5.3"
+  }
 }
