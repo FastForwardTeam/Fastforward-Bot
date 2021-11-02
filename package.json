@@ -1,0 +1,22 @@
+{
+  "name": "fastforward-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FastForwardTeam/Fastforward-Bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FastForwardTeam/Fastforward-Bot/issues"
+  },
+  "homepage": "https://github.com/FastForwardTeam/Fastforward-Bot#readme",
+  "dependencies": {
+    "discord.js": "^13.3.1"
+  }
+}
