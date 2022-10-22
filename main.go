@@ -50,11 +50,6 @@ var (
 					Description: "The hashed string goes here",
 					Required:    true,
 				},
-				discord.ApplicationCommandOptionBool{
-					Name:        "ephemeral",
-					Description: "If the response should only be visible to you",
-					Required:    true,
-				},
 			},
 		},
 	}
@@ -149,7 +144,7 @@ func commandListener(event *events.ApplicationCommandInteractionCreate) {
 
 		err = event.CreateMessage(discord.NewMessageCreateBuilder().
 			SetContent(string("Input: `" + data.String("string") + "`\nPossible hashes: " + result.String())).
-			SetEphemeral(data.Bool("ephemeral")).
+			SetEphemeral(true).
 			Build(),
 		)
 		if err != nil {
